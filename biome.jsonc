@@ -36,7 +36,11 @@
 				"noReactSpecificProps": "off"
 			},
 			"style": {
+				"noImplicitBoolean": "off",
 				"noDefaultExport": "off"
+			},
+			"a11y": {
+				"useKeyWithClickEvents": "off"
 			}
 		}
 	},
