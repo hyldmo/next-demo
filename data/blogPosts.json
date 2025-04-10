@@ -1,0 +1,20 @@
+[
+	{
+		"slug": "city",
+		"title": "Urban Dreams: Skylines and Streetlights",
+		"content": "Explore the vibrant energy of the urban landscape. Towering skyscrapers pierce the skyline, reflecting the endless motion of city life below. From bustling streets to hidden alleyways, every corner holds a new discovery.",
+		"image": "/images/city.jpg"
+	},
+	{
+		"slug": "desert",
+		"title": "Whispers in the Dunes: Desert's Embrace",
+		"content": "Journey into the vast, sun-scorched expanse of the desert. Rolling dunes stretch towards the horizon under a brilliant sky. Discover the stark beauty and surprising resilience of life in this arid wilderness.",
+		"image": "/images/desert.jpg"
+	},
+	{
+		"slug": "forest",
+		"title": "Emerald Canopy: Secrets of the Woods",
+		"content": "Step into the serene embrace of the ancient forest. Sunlight filters through the dense canopy, illuminating a world of towering trees and whispering leaves. Find peace and tranquility amidst the vibrant life of the woods.",
+		"image": "/images/forest.jpg"
+	}
+]
