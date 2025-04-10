@@ -4,9 +4,9 @@ import blogPosts from '@/data/blogPosts.json'
 import { notFound } from 'next/navigation'
 
 interface InterceptedBlogPostProps {
-	params: {
+	params: Promise<{
 		slug: string
-	}
+	}>
 }
 
 export default async function InterceptedBlogPostPage(props: InterceptedBlogPostProps) {
@@ -18,7 +18,7 @@ export default async function InterceptedBlogPostPage(props: InterceptedBlogPost
 
 	return (
 		<Modal>
-			<BlogPostContent post={post} />
+			<BlogPostContent post={post} animate />
 		</Modal>
 	)
 }

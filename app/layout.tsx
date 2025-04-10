@@ -28,7 +28,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-				{children}
+				<div className="max-h-screen overflow-scroll">{children}</div>
 				{modal}
 			</body>
 		</html>

@@ -1,4 +1,5 @@
 import { BlogPostContent } from '@/app/ui/BlogPost'
+import { Modal } from '@/app/ui/Modal'
 import blogPosts from '@/data/blogPosts.json'
 import { notFound } from 'next/navigation'
 
@@ -23,8 +24,8 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
 	}
 
 	return (
-		<main className="p-8 pt-20">
-			<BlogPostContent post={post} />
-		</main>
+		<Modal animate={false}>
+			<BlogPostContent post={post} animate={false} />
+		</Modal>
 	)
 }
